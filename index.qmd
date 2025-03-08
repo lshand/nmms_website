@@ -2,7 +2,7 @@
 title: ""
 about:
   template: marquee
-  image: nmmsred.png
+  image: images/nmmsred.png
   links:
     - icon: facebook
       text: facebook

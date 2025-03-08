@@ -8,6 +8,7 @@ website:
       - href: index.qmd
         text: Home
       - href: teams.qmd
+        text: Find a Club
       - href: events.qmd
       - href: records.qmd
         text: Records
