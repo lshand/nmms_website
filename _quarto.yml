@@ -4,14 +4,22 @@ project:
 website:
   title: ""
   navbar:
+    logo: images/swimmerlogo.png
     left:
-      - href: index.qmd
-        text: Home
+      #- href: index.qmd
+      #  text: Home
       - href: teams.qmd
         text: Find a Club
       - href: events.qmd
-      - href: records.qmd
-        text: Records
+      - records.qmd
+  sidebar:
+    - title: "Records"
+      style: "docked"
+      background: light
+      contents:
+        - records.qmd
+        - scyrecords.qmd
+       # - tutorial-2.qmd
 
 format:
   html:

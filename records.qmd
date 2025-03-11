@@ -1,5 +1,14 @@
 ---
-title: "New Mexico LMSC State Records"
+title: "Records"
+format: html
+execute:
+  echo: false
 ---
 
-Coming soon.
+[**2025 USMS Top Times (Unofficial)**](https://www.usms.org/comp/meets/toptimes.php)
+
+[**USMS Records**](https://www.usms.org/events/usms-records/pool-usms-records)
+
+[**Masters World Records**](https://www.worldaquatics.com/masters/records)
+
+## 

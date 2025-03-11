@@ -1,0 +1,78 @@
+## **New Mexico LMSC SCY Records**
+
+Updated March 10, 2024.
+
+*Note: Openly available USMS records only date back to 2000. Working on getting older records of possible.*
+
+```{r setup}
+#| echo: false
+#| message: false
+source("process_records.R")
+library(kableExtra)
+
+```
+
+### **Women's SCY Records**
+
+```{r womens_records}
+#| echo: false
+##| paged-print: true
+##| results: asis
+#women's records
+results_list <- list()
+for(a in 1:length(agegroups)){
+results_list[[a]] <- kbl(staterecords %>% filter(Sex=="Women ", Age.Group==agegroups[a]) %>%
+        arrange(Stroke, Distance) %>% select(Stroke, Distance, Time, Name, Season), 
+        caption = paste0("Women ",agegroups[a]))
+}
+
+results_list[[1]]
+results_list[[2]]
+results_list[[3]]
+results_list[[4]]
+results_list[[5]]
+results_list[[6]]
+results_list[[7]]
+results_list[[8]]
+results_list[[9]]
+results_list[[11]]
+results_list[[12]]
+results_list[[13]]
+results_list[[14]]
+results_list[[15]]
+#results_list[[16]]
+```
+
+------------------------------------------------------------------------
+
+### **Men's SCY Records**
+
+```{r mens_records}
+
+#| echo: false
+##| paged-print: true
+##| results: asis
+#men's records
+results_list <- list()
+for(a in 1:length(agegroups)){
+results_list[[a]] <- kbl(staterecords %>% filter(Sex=="Men ", Age.Group==agegroups[a]) %>%
+        arrange(Stroke, Distance) %>% select(Stroke, Distance, Time, Name, Season), 
+        caption = paste0("Men ",agegroups[a]))
+}
+
+results_list[[1]]
+results_list[[2]]
+results_list[[3]]
+results_list[[4]]
+results_list[[5]]
+results_list[[6]]
+results_list[[7]]
+results_list[[8]]
+results_list[[9]]
+results_list[[11]]
+results_list[[12]]
+results_list[[13]]
+results_list[[14]]
+results_list[[15]]
+#results_list[[16]]
+```
