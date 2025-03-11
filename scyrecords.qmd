@@ -48,7 +48,6 @@ results_list[[15]]
 ### **Men's SCY Records**
 
 ```{r mens_records}
-
 #| echo: false
 ##| paged-print: true
 ##| results: asis
