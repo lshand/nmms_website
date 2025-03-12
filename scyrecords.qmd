@@ -20,9 +20,10 @@ library(kableExtra)
 ##| results: asis
 #women's records
 results_list <- list()
+results_list <- list()
 for(a in 1:length(agegroups)){
   tmp_table <- staterecords %>% 
-    filter(Sex=="Womeen", Age.Group==agegroups[a]) %>%
+    filter(Sex=="Women", Age.Group==agegroups[a]) %>%
         arrange(Stroke, Distance) %>% 
     select(Distance, Stroke, Time, Name, Season)
 results_list[[a]] <- kbl(tmp_table, caption = paste0("Women ",agegroups[a]))
