@@ -2,38 +2,72 @@ library(dplyr)
 library(lubridate)
 library(hms)
 
-recordfiles <- list.files("../records/")[grep(".csv",list.files("../records/"))]
-
-records <- c()
-for(i in 1:length(recordfiles)){
-  tmp_records = read.csv(paste0("../records/",recordfiles[i]))
-  tmp_records[,'Season'] = substr(recordfiles[i], nchar(recordfiles[i])-7,nchar(recordfiles[i])-4)
-  records <- rbind(records,tmp_records)
-}
-
 convert_to_time <- function(x){
   z = gregexpr(":",x)[[1]][1]
   if(length(z)>1){ #> 1 hour 
-      s=substr(x,z[2]+1, nchar(x))
-      m=as.numeric(substr(x,z[1]+1,z[2]-1))
-      h=as.numeric(substr(x,1, z[1]-1))
+    s=substr(x,z[2]+1, nchar(x))
+    m=as.numeric(substr(x,z[1]+1,z[2]-1))
+    h=as.numeric(substr(x,1, z[1]-1))
   }else{
-      h=0
-      s=as.numeric(substr(x,z[1]+1, nchar(x)))
-      m=ifelse(z>0, as.numeric(substr(x,1, z[1]-1)),0)
+    h=0
+    s=as.numeric(substr(x,z[1]+1, nchar(x)))
+    m=ifelse(z>0, as.numeric(substr(x,1, z[1]-1)),0)
   }
   
   tmp_hms = hms::hms(seconds = s , minutes = m, hours = h)
   return(as.character(tmp_hms))
 }
 
-records$Time <- sapply(records$Time, convert_to_time)
+#LMSC Top 10
+recordfiles <- list.files("../records/SCY/LMSC_top10")
 
+records <- c()
+for(i in 1:length(recordfiles)){
+  tmp_records = read.csv(paste0("../records/SCY/LMSC_top10/",recordfiles[i]))
+  tmp_records[,'Season'] = substr(recordfiles[i], nchar(recordfiles[i])-7,nchar(recordfiles[i])-4)
+  records <- rbind(records,tmp_records)
+}
+
+records$Time <- sapply(records$Time, convert_to_time)
+records$Sex <- ifelse(records$Sex=="Women ","Women","Men")
+
+records_lmsc10 <- records
+#best_times_lmsc10 <- records %>% 
+#  group_by(Sex, Age.Group,Distance,Stroke) %>% 
+#  summarise(top_time=min(Time)) 
+
+
+#USMS Top 10
+recordfiles <- list.files("../records/SCY/USMS_top10")
+
+records <- c()
+for(i in 1:length(recordfiles)){
+  tmp_records = read.csv(paste0("../records/SCY/USMS_top10/",recordfiles[i]), skip=1)
+  tmp_records[,'Season'] = substr(recordfiles[i], nchar(recordfiles[i])-7,nchar(recordfiles[i])-4)
+  records <- rbind(records,tmp_records)
+}
+
+#reformat Age.Group
+records[,'Sex'] <- sapply(records$Age.Group, function(x) ifelse(substr(x,1,1)=="W","Women","Men"))
+records$Age.Group <- sapply(records$Age.Group, function(x) substr(x,2,nchar(x)))
+records[,'break_ind'] <- sapply(records$Event, function(x) regexpr(" ",x)[1])
+records <- records %>% mutate(Distance=substr(Event,1,break_ind-1),
+                                Stroke=substr(Event,break_ind+1,nchar(Event)))
+records$Stroke <- recode(records$Stroke, "IM"="Individual Medley", "Free"="Freestyle",
+                         "Breast"= "Breaststroke", "Back"="Backstroke", "Fly"="Butterfly")
+records$Time <- sapply(records$Time, function(x) substr(x, 1, nchar(x)-1))
+records$Time <- sapply(records$Time, convert_to_time)
+records_usms10 <- records
+#best_times_usms10 <- records %>% 
+#  group_by(Sex, Age.Group,Distance,Stroke) %>% 
+#  summarise(top_time=min(Time))
+
+#create state record tables
+vars=c("Sex","Age.Group","Distance","Stroke","Time","Name","Season")
+records <- rbind(records_lmsc10[,vars], records_usms10[,vars])
 best_times <- records %>% 
   group_by(Sex, Age.Group,Distance,Stroke) %>% 
   summarise(top_time=min(Time))
-
-#create tables
 staterecords <- c()
 for(i in 1:nrow(best_times)){
   tmp_rec = records %>% filter(Sex == best_times$Sex[i],
@@ -44,6 +78,7 @@ for(i in 1:nrow(best_times)){
   staterecords <- rbind(staterecords,tmp_rec)
 }
 
+staterecords$Distance <- as.numeric(staterecords$Distance )
 agegroups = unique(staterecords$Age.Group)
 
 #time formatting
@@ -71,6 +106,6 @@ staterecords$Time <- sapply(staterecords$Time, function(x){
   return(y)
 })
 
-staterecords$Date <- ifelse(is.na(staterecords$Date),staterecords$Season,staterecords$Date)
+#staterecords$Date <- ifelse(is.na(staterecords$Date),staterecords$Season,staterecords$Date)
 
 list=ls()[! ls() %in% c("staterecords","agegroups")]
