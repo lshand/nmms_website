@@ -3,12 +3,6 @@ title: "Upcoming Events"
 listing: 
   categories: true
   contents:
-    - path: https://www.clubassistant.com/club/meet_information.cfm?c=2364&amp;smid=19379
-      image: /images/usmsmeetlogo.png
-      title: "2025 Taos Masters High-Altitude Spring Open"
-      description: "Join Taos Masters for a High-Altitude (7010 ft) meet to prepare for Nationals or just to have fun. We'll feed you our team pot-luck we've come to be known for after you compete. See info for details."
-      date: "2025-03-15"
-      categories: [Meets, NM LMSC Meets]
     
     - path: https://www.clubassistant.com/club/meet_information.cfm?c=2693&amp;smid=19212
       image: /images/usmsmeetlogo.png
@@ -23,4 +17,11 @@ listing:
       description: "Lily King and Josh Davis will be in Santa Fe April 12th offering a stroke clinic hosted by BEAST Aquatics at Santa Fe Community College. Many clinics do not offer a masters component, but this one will! This is an amazing and unique opportunity to meet and get technique tips from these Olympians."
       date: "2025-04-12"
       categories: [Stroke Clinics]  
+    
+    - path: https://www.usms.org/events/national-championships/pool-national-championships/2025-pool-national-championships/2025-spring-national-championship
+      image: /images/usmsmeetlogo.png
+      title: "2025 USMS Spring National Championship"
+      description: "U.S. Masters Swimming is excited to bring Spring Nationals back to the Northside ISD Swim Center in San Antonio, Texas April 24-27, 2025. Entries are open through Monday, March 31 at 11:59 p.m. Pacific."
+      date: "2025-04-24"
+      categories: [Meets]
 ---
