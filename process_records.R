@@ -19,11 +19,11 @@ convert_to_time <- function(x){
 }
 
 #LMSC Top 10
-recordfiles <- list.files("../records/SCY/LMSC_top10")
+recordfiles <- list.files(paste0("../records/",pool_len,"/LMSC_top10"))
 
 records <- c()
 for(i in 1:length(recordfiles)){
-  tmp_records = read.csv(paste0("../records/SCY/LMSC_top10/",recordfiles[i]))
+  tmp_records = read.csv(paste0("../records/",pool_len,"/LMSC_top10/",recordfiles[i]))
   tmp_records[,'Season'] = substr(recordfiles[i], nchar(recordfiles[i])-7,nchar(recordfiles[i])-4)
   records <- rbind(records,tmp_records)
 }
@@ -38,11 +38,11 @@ records_lmsc10 <- records
 
 
 #USMS Top 10
-recordfiles <- list.files("../records/SCY/USMS_top10")
+recordfiles <- list.files(paste0("../records/",pool_len,"/USMS_top10"))
 
 records <- c()
 for(i in 1:length(recordfiles)){
-  tmp_records = read.csv(paste0("../records/SCY/USMS_top10/",recordfiles[i]), skip=1)
+  tmp_records = read.csv(paste0("../records/",pool_len,"/USMS_top10/",recordfiles[i]), skip=1)
   tmp_records[,'Season'] = substr(recordfiles[i], nchar(recordfiles[i])-7,nchar(recordfiles[i])-4)
   records <- rbind(records,tmp_records)
 }

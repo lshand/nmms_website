@@ -1,17 +1,17 @@
-## **New Mexico LMSC SCY Records**
+## **New Mexico LMSC LCM Records**
 
-Updated March 28, 2024.
+Updated April 14, 2024.
 
 ```{r setup}
 #| echo: false
 #| message: false
-pool_len = "SCY"
+
+pool_len = "LCM"
 source("process_records.R")
 library(kableExtra)
-
 ```
 
-### **Women's SCY Records**
+### **Women's LCM Records**
 
 ```{r womens_records}
 #| echo: false
@@ -47,7 +47,7 @@ results_list[[15]]
 
 ------------------------------------------------------------------------
 
-### **Men's SCY Records**
+### **Men's LCM Records**
 
 ```{r mens_records}
 #| echo: false

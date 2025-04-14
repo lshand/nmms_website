@@ -4,19 +4,6 @@ listing:
   categories: true
   contents:
     
-    - path: https://www.clubassistant.com/club/meet_information.cfm?c=2693&amp;smid=19212
-      image: /images/usmsmeetlogo.png
-      title: "2025 New Mexico Masters State Championships"
-      description: "State Championship Meet for New Mexico LMSC hosted by Lobo Aquatics. March 22-23, 2025. Open to all USMS registered athletes for an opportunity to race at 5000 ft."
-      date: "2025-03-22"
-      categories: [Meets, NM LMSC Meets]
-      
-    - path: https://www.eventbrite.com/e/olympians-lilly-king-josh-davis-41225-santa-fe-nm-tickets-1106520525679?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl
-      image: /images/kingclinic.jpg
-      title: "Stroke Clinic w/ Olympians"
-      description: "Lily King and Josh Davis will be in Santa Fe April 12th offering a stroke clinic hosted by BEAST Aquatics at Santa Fe Community College. Many clinics do not offer a masters component, but this one will! This is an amazing and unique opportunity to meet and get technique tips from these Olympians."
-      date: "2025-04-12"
-      categories: [Stroke Clinics]  
     
     - path: https://www.usms.org/events/national-championships/pool-national-championships/2025-pool-national-championships/2025-spring-national-championship
       image: /images/usmsmeetlogo.png
