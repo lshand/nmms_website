@@ -19,6 +19,7 @@ website:
       contents:
         - records.qmd
         - scyrecords.qmd
+        - scmrecords.qmd
         - lcmrecords.qmd
        # - tutorial-2.qmd
 
