@@ -65,9 +65,12 @@ records_usms10 <- records
 #create state record tables
 vars=c("Sex","Age.Group","Distance","Stroke","Time","Name","Season")
 records <- rbind(records_lmsc10[,vars], records_usms10[,vars])
+#identify best times
 best_times <- records %>% 
   group_by(Sex, Age.Group,Distance,Stroke) %>% 
   summarise(top_time=min(Time))
+
+#need to go and find who swam these best times
 staterecords <- c()
 for(i in 1:nrow(best_times)){
   tmp_rec = records %>% filter(Sex == best_times$Sex[i],
@@ -75,10 +78,10 @@ for(i in 1:nrow(best_times)){
                                Distance == best_times$Distance[i],
                                Stroke == best_times$Stroke[i],
                                Time == best_times$top_time[i])
-  staterecords <- rbind(staterecords,tmp_rec)
+  staterecords <- rbind(staterecords,tmp_rec[1,])
 }
 
-staterecords$Distance <- as.numeric(staterecords$Distance )
+staterecords$Distance <- as.numeric(staterecords$Distance)
 agegroups = unique(staterecords$Age.Group)
 
 #time formatting

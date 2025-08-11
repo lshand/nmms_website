@@ -1,6 +1,6 @@
 ## **New Mexico LMSC LCM Records**
 
-Updated April 14, 2024.
+Updated August 11, 2025.
 
 ```{r setup}
 #| echo: false
@@ -18,7 +18,6 @@ library(kableExtra)
 ##| paged-print: true
 ##| results: asis
 #women's records
-results_list <- list()
 results_list <- list()
 for(a in 1:length(agegroups)){
   tmp_table <- staterecords %>% 

@@ -1,6 +1,6 @@
 ## **New Mexico LMSC SCY Records**
 
-Updated March 28, 2024.
+Updated August 11, 2025.
 
 ```{r setup}
 #| echo: false
