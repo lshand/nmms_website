@@ -8,10 +8,13 @@ website:
     left:
       #- href: index.qmd
       #  text: Home
+      - href: aboutus.qmd
+        text: About Us
       - href: teams.qmd
         text: Find a Club
       - href: events.qmd
-      - records.qmd
+      - href: records.qmd
+      
   sidebar:
     - title: "Records"
       style: "docked"
