@@ -4,12 +4,6 @@ listing:
   categories: true
   contents:
     
-    - path: "https://www.grownupswimming.com/albuquerque"
-      image: /images/GUSlogo.png
-      title: "Grown Up Swimming Albuquerque Summer League"
-      description: "Del Norte Sports & Wellness, Albuquerque. Warm-up at 5:30PM, meet to start at 6:30PM"
-      date: "2025-08-13"
-      categories: [Grown Up Swimming]
       
     - path: "https://www.grownupswimming.com/albuquerque"
       image: /images/GUSlogo.png
@@ -18,23 +12,23 @@ listing:
       date: "2025-08-21"
       categories: [Grown Up Swimming]
  
-    - path: ""
+    - path: abiquiu_sept25.qmd
       image: /images/lakeswim.jpeg
-      title: "Abiquiu Lake Swim and Camp"
-      description: "Join us at Abiquiu Lake Sept 6 & 7 for a free NMMS open water swim event. Drive up for the day on Sept 7th or camp with us for the weekend. We have the group campsite 2 near Swimmers Beach reserved Sept 6-7. New open water swimmers welcome! Must be a USMS member to participate. Contact Shaun Challis, shaunchallis@hotmail.com for more details and to register."
+      title: "Open Water Weekend @ Abiquiu Lake"
+      description: "Join us at Abiquiu Lake Sept 6 & 7 for a free NMMS open water swim event. Drive up for the day on Sept 7th or camp with us for the weekend. New open water swimmers welcome! Must be a USMS member to participate. Contact Shaun Challis, shaunchallis@hotmail.com for more details and to register."
       date: "2025-09-06"
       categories: [Open Water]   
       
     - path: ""
       image: /images/usmsmeetlogo.png
-      title: "2025 Lobo Memorial Masters Meet"
+      title: "2025 Lobo Fall Classic Meet"
       description: "Save the Date! Details Coming Soon"
       date: "2025-10-25"
       categories: [Meets]
       
     - path: ""
       image: /images/usmsmeetlogo.png
-      title: "2025 Taos High-Altitude Gobbler"
+      title: "2025 Taos High-Altitude Gobbler Meet"
       description: "Save the Date! Details Coming Soon"
       date: "2025-11-22"
       categories: [Meets]
