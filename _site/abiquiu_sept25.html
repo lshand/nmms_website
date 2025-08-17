@@ -39,6 +39,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-629d36cd10513e06719bea5d014f4120.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -149,15 +152,29 @@ Who: Free to all USMS members<br>
 <p><strong>Weekend Schedule:</strong></p>
 <p><br>
 Saturday - Afternoon dip in the lake, BBQ, fun quiz and camping at Abiquiu lake group shelter.<br>
-Sunday - 10am Open water skills session and guided group swim.<br>
+</p>
+<p>Sunday - 10am Open water skills session and guided group swim.<br>
 <br>
 Lifeguards and safety paddlers will be provided however we can only cover USMS members. Friends and family are welcome to come along but cannot partake in the organized swim activities.<br>
-<br>
-<strong>Please contact&nbsp;<a href="mailto:shaunchallis@hotmail.com">shaunchallis@hotmail.com</a>&nbsp;for further information and to reserve your spot.</strong></p>
-<hr>
+</p>
+<p><strong>Please contact&nbsp;<a href="mailto:shaunchallis@hotmail.com">shaunchallis@hotmail.com</a>&nbsp;for further information and to reserve your spot.</strong></p>
+<p>`<a href="images/abiquiu1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="images/abiquiu1.jpg" class="img-fluid" style="width:10cm"></a> <a href="images/abiquiu2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="images/abiquiu2.jpg" class="img-fluid" style="width:10cm"></a></p>
+<p><a href="images/abiquiu3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="images/abiquiu3.jpg" class="img-fluid" style="width:10cm"></a> <a href="images/abiquiu4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="images/abiquiu4.jpg" class="img-fluid" style="width:10cm"></a>`</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Parking: If you are camping, you can park at the campsite. If you plan to just come up for the morning swim on Sunday, you may be able to park at the camp site but this is TBD. If parking in day use area, you must purchase a day use pass. This can be done at the machine near the boat ramp. The machine at the swim beach is out of order.</p>
-<p><img src="images/abiquiu_maplarge.png" class="img-fluid"></p>
-<p><img src="images/abiquiu_mapparking.png" class="img-fluid"></p>
+</div>
+</div>
+<p><a href="images/abiquiu_maplarge.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="images/abiquiu_maplarge.png" class="img-fluid" style="width:20cm"></a></p>
+<p><a href="images/abiquiu_mapparking.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="images/abiquiu_mapparking.png" class="img-fluid" style="width:20cm"></a></p>
 
 
 
@@ -580,6 +597,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
