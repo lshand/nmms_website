@@ -2,15 +2,9 @@
 title: "Upcoming Events"
 listing: 
   categories: true
+  sort: "date"
   contents:
     
-      
-    - path: "https://www.grownupswimming.com/albuquerque"
-      image: /images/GUSlogo.png
-      title: "Grown Up Swimming Albuquerque Summer League"
-      description: "Riverpoint Sports & Wellness, Albuquerque. Warm-up at 5:30PM, meet to start at 6:30PM"
-      date: "2025-08-21"
-      categories: [Grown Up Swimming]
  
     - path: abiquiu_sept25.qmd
       image: /images/lakeswim.jpeg
@@ -18,6 +12,17 @@ listing:
       description: "Join us at Abiquiu Lake Sept 6 & 7 for a free NMMS open water swim event. Drive up for the day on Sept 7th or camp with us for the weekend. New open water swimmers welcome! Must be a USMS member to participate. Contact Shaun Challis, shaunchallis@hotmail.com for more details and to register."
       date: "2025-09-06"
       categories: [Open Water]   
+    
+    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2707&smid=20121"
+      image: /images/usmsmeetlogo.png
+      title: "Dolphins of the Desert Pentathlon"
+      description: "The Dolphins of the Desert Pentathlon encourages all entrants to sign up for events in one of the three pentathlon tracks:
+Sprint IM – 50 fly, 50 back, 50 breast, 50 free, 100 IM,
+Endurance IM – 100 fly, 100 back, 100 breast, 100 free, 200 IM, or
+Freestyle – 50, 100, 200, 500, 1000 freestyle.
+Participants who do not wish to swim in either pentathlon can enter up to five events of their choice."
+      date: "2025-09-28"
+      categories: [Meets]
       
     - path: ""
       image: /images/usmsmeetlogo.png
@@ -32,4 +37,7 @@ listing:
       description: "Save the Date! Details Coming Soon"
       date: "2025-11-22"
       categories: [Meets]
+---
+
+Check out all USMS events at usms.org/events.
 ---
