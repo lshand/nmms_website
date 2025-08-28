@@ -1,6 +1,8 @@
 ---
 title: "About Us"
 format: html
+resources: 
+  -docs/NMMSRevisedByLaws825.pdf
 ---
 
 Questions? Email NMCommunications\@usms.org
@@ -20,3 +22,9 @@ Open Water Chair: Shaun Challis-Clark
 Sanctions Chair: Greta Kuehl
 
 Top Ten Recorder: Lyndsay Shand
+
+---
+
+[LMSC By Laws](docs/NMMSRevisedByLaws825.pdf)
+
+---

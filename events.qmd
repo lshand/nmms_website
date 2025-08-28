@@ -39,5 +39,4 @@ Participants who do not wish to swim in either pentathlon can enter up to five e
       categories: [Meets]
 ---
 
-Check out all USMS events at usms.org/events.
----
+## Check out all USMS events at usms.org/events.
