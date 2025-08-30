@@ -27,7 +27,7 @@ Participants who do not wish to swim in either pentathlon can enter up to five e
     - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2693&amp;smid=20205"
       image: /images/lobo_logo.png
       title: "2025 Lobo Fall Classic Meet"
-      description: "Save the Date! Details Coming Soon"
+      description: "Dust off those racing cobwebs at the first NM LMSC meet of the season! The annual fall meet Lobo meet is a fun, no pressure environment to have a little friendly competition among local (and out of state) teams."
       date: "2025-10-25"
       categories: [Meets]
       
