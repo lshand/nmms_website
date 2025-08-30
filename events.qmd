@@ -24,8 +24,8 @@ Participants who do not wish to swim in either pentathlon can enter up to five e
       date: "2025-09-28"
       categories: [Meets]
       
-    - path: ""
-      image: /images/usmsmeetlogo.png
+    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2693&amp;smid=20205"
+      image: /images/lobo_logo.png
       title: "2025 Lobo Fall Classic Meet"
       description: "Save the Date! Details Coming Soon"
       date: "2025-10-25"
