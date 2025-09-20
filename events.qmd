@@ -31,6 +31,13 @@ Participants who do not wish to swim in either pentathlon can enter up to five e
       date: "2025-10-25"
       categories: [Meets]
       
+    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2710&smid=20291"
+      image: /images/rio.png
+      title: "Arizona Masters Short Course Meters State Championship"
+      description: "Hosted by RIO Masters Swimming in Mesa, AZ. This meet is replacing the annual Ron Johnson Meet this year. It might be an excellent chance to get your hands on a NM state record or two!"
+      date: "2025-11-01"
+      categories: [Meets]
+      
     - path: ""
       image: /images/usmsmeetlogo.png
       title: "2025 Taos High-Altitude Gobbler Meet"
