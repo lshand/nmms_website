@@ -4,31 +4,20 @@ listing:
   categories: true
   sort: "date"
   contents:
-    
- 
-    - path: abiquiu_sept25.qmd
-      image: /images/lakeswim.jpeg
-      title: "Open Water Weekend @ Abiquiu Lake"
-      description: "Join us at Abiquiu Lake Sept 6 & 7 for a free NMMS open water swim event. Drive up for the day on Sept 7th or camp with us for the weekend. New open water swimmers welcome! Must be a USMS member to participate. Contact Shaun Challis, shaunchallis@hotmail.com for more details and to register."
-      date: "2025-09-06"
-      categories: [Open Water]   
-    
-    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2707&smid=20121"
-      image: /images/usmsmeetlogo.png
-      title: "Dolphins of the Desert Pentathlon"
-      description: "The Dolphins of the Desert Pentathlon encourages all entrants to sign up for events in one of the three pentathlon tracks:
-Sprint IM – 50 fly, 50 back, 50 breast, 50 free, 100 IM,
-Endurance IM – 100 fly, 100 back, 100 breast, 100 free, 200 IM, or
-Freestyle – 50, 100, 200, 500, 1000 freestyle.
-Participants who do not wish to swim in either pentathlon can enter up to five events of their choice."
-      date: "2025-09-28"
-      categories: [Meets]
+  
       
     - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2693&amp;smid=20205"
       image: /images/lobo_logo.png
       title: "2025 Lobo Fall Classic Meet"
       description: "Dust off those racing cobwebs at the first NM LMSC meet of the season! The annual fall meet Lobo meet is a fun, no pressure environment to have a little friendly competition among local (and out of state) teams."
       date: "2025-10-25"
+      categories: [Meets]
+      
+    - path: "https://tinyurl.com/4zwekvux"
+      image: /images/aliencity_fallmeet.jpg
+      title: "Alien City Fall Meet"
+      description: "This dual USA-S and USMS meet is UNSANCTIONED and just for fun. Head down to Roswell to support Alien City’s first dual meet! If successful, this could become an annual event. Email Kyle (KyleRBullock@gmail.com) to register or for any questions. "
+      date: "2025-11-15"
       categories: [Meets]
       
     - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2710&smid=20291"
