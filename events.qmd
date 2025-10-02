@@ -27,10 +27,10 @@ listing:
       date: "2025-11-01"
       categories: [Meets]
       
-    - path: ""
+    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2364&smid=20353"
       image: /images/usmsmeetlogo.png
       title: "2025 Taos High-Altitude Gobbler Meet"
-      description: "Save the Date! Details Coming Soon"
+      description: "Taos Masters is hosting their annual Fall SCY masters meet which is usually followed by a delicious potluck. The event has been sanctioned and is now open for registration!"
       date: "2025-11-22"
       categories: [Meets]
 ---
