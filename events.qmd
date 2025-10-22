@@ -33,6 +33,13 @@ listing:
       description: "Taos Masters is hosting their annual Fall SCY masters meet which is usually followed by a delicious potluck. The event has been sanctioned and is now open for registration!"
       date: "2025-11-22"
       categories: [Meets]
+      
+    - path: "https://www.eventbrite.com/e/new-mexico-masters-50x100-challenge-tickets-1849322486339?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=wsa&aff=ebdsshwebmobile"
+      image: /images/beastpool.jpeg
+      title: "New Mexico Masters 50x100 challenge"
+      description: "Join us for a 50 x100 challenge swim in this beautiful heated outdoor pool in Albuquerque, with a backdrop of the Sandia Mountains."
+      date: "2025-11-29"
+      categories: [Other Events]
 ---
 
 ## Check out all USMS events at usms.org/events.
