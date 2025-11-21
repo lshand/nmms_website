@@ -29,7 +29,7 @@ for(i in 1:length(recordfiles)){
 }
 
 records$Time <- sapply(records$Time, convert_to_time)
-records$Sex <- ifelse(records$Sex=="Women ","Women","Men")
+records$Sex[which(records$Sex %in% c("Women ", "Men "))] <- ifelse(records$Sex[which(records$Sex %in% c("Women ", "Men "))]=="Women ","Women","Men")
 
 records_lmsc10 <- records
 #best_times_lmsc10 <- records %>% 
