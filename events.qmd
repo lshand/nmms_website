@@ -11,28 +11,22 @@ listing:
       title: "2025 Lobo Fall Classic Meet"
       description: "Dust off those racing cobwebs at the first NM LMSC meet of the season! The annual fall meet Lobo meet is a fun, no pressure environment to have a little friendly competition among local (and out of state) teams."
       date: "2025-10-25"
-      categories: [Meets]
+      categories: [NM Meets]
       
     - path: "https://tinyurl.com/4zwekvux"
       image: /images/aliencity_fallmeet.jpg
       title: "Alien City Fall Meet"
       description: "This dual USA-S and USMS meet is UNSANCTIONED and just for fun. Head down to Roswell to support Alien City’s first dual meet! If successful, this could become an annual event. Email Kyle (KyleRBullock@gmail.com) to register or for any questions. "
       date: "2025-11-15"
-      categories: [Meets]
+      categories: [NM Meets]
       
-    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2710&smid=20291"
-      image: /images/rio.png
-      title: "Arizona Masters Short Course Meters State Championship"
-      description: "Hosted by RIO Masters Swimming in Mesa, AZ. This meet is replacing the annual Ron Johnson Meet this year. It might be an excellent chance to get your hands on a NM state record or two!"
-      date: "2025-11-01"
-      categories: [Meets]
       
     - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2364&smid=20353"
       image: /images/usmsmeetlogo.png
       title: "2025 Taos High-Altitude Gobbler Meet"
       description: "Taos Masters is hosting their annual Fall SCY masters meet which is usually followed by a delicious potluck. The event has been sanctioned and is now open for registration!"
       date: "2025-11-22"
-      categories: [Meets]
+      categories: [NM Meets]
       
     - path: "https://www.eventbrite.com/e/new-mexico-masters-50x100-challenge-tickets-1849322486339?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=wsa&aff=ebdsshwebmobile"
       image: /images/beastpool.jpeg
@@ -40,6 +34,41 @@ listing:
       description: "Join us for a 50 x100 challenge swim in this beautiful heated outdoor pool in Albuquerque, with a backdrop of the Sandia Mountains."
       date: "2025-11-29"
       categories: [Other Events]
+      
+    - path:
+      image: /images/usmsmeetlogo.png
+      title: "HAMsters Santa Fe Meet"
+      description: "Save the Date. January 3-4, 2026. Hosted by Santa Fe HAMsters. This will be a dual sanctioned meet with a masters heat. More details to come."
+      date: "2026-01-03"
+      categories: [NM Meets]
+      
+    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2708&amp;smid=20162"
+      image: /images/usmsmeetlogo.png
+      title: "Fabulous Las Vegas Masters Short Course Meters Meet"
+      description: "LAs Vegas, NV. January 17, 2026. Las Vegas Masters is proud to host a special occurrence of short course meters in January! We've also got all the best of Masters swimming: Fun, friends, camaraderie, competition, excellent venue, and the best Las Vegas has to offer."
+      date: "2026-01-17"
+      categories: [Nearby Meets]
+      
+    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2633&amp;smid=20349"
+      image: /images/usmsmeetlogo.png
+      title: "2026 Winter Masters Distance Invitational"
+      description: "Oro Valley, AZ. February 28-March 1, 2026. Come to beautiful Oro Valley, AZ (near Tucson) and swim in one of the premier facilities in Arizona! We race over 2 days.  On Day 1, we will swim the 25 yard course and contest the 1650 and 1000 yard freestyles, and the 800 yard freestyle relay. On Day 2, we will swim the 50 meter course and contest the 1500 meter freestyle and 800 meter freestyle relay."
+      date: "2026-02-28"
+      categories: [Nearby Meets]
+      
+    - path: "https://www.ski-n-swim.org/"
+      image: /images/usmsmeetlogo.png
+      title: "Ski-n-Swim 2026"
+      description: "Salt Lake City, UT. February 27-March 1, 2026. See link for more details."
+      date: "2026-02-28"
+      categories: [Nearby Meets]
+      
+    - path:
+      image: /images/lobo_logo.png
+      title: "2026 New Mexico State Championship"
+      description: "Albuquerque, NM. Seidler Nataorium. March 28-29, 2026. More details to come."
+      date: "2026-03-28"
+      categories: [NM Meets]
 ---
 
 ## Check out all USMS events at usms.org/events.
