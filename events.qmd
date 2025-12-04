@@ -63,6 +63,13 @@ listing:
       date: "2026-02-28"
       categories: [Nearby Meets]
       
+    - path: 
+      image: /images/usmsmeetlogo.png
+      title: "RMMS Spring Meet"
+      description: "Durango, Co. More details to come."
+      date: "2026-03-07"
+      categories: [Nearby Meets]
+      
     - path:
       image: /images/lobo_logo.png
       title: "2026 New Mexico State Championship"
