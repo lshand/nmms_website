@@ -37,7 +37,7 @@ listing:
       
     - path:
       image: /images/usmsmeetlogo.png
-      title: "HAMsters Santa Fe Meet"
+      title: "CAQ winter Open"
       description: "Save the Date. January 3-4, 2026. Hosted by Santa Fe HAMsters. This will be a dual sanctioned meet with a masters heat. More details to come."
       date: "2026-01-03"
       categories: [NM Meets]
@@ -60,7 +60,7 @@ listing:
       image: /images/usmsmeetlogo.png
       title: "Ski-n-Swim 2026"
       description: "Salt Lake City, UT. February 27-March 1, 2026. See link for more details."
-      date: "2026-02-28"
+      date: "2026-02-27"
       categories: [Nearby Meets]
       
     - path: 
