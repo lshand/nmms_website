@@ -35,9 +35,9 @@ listing:
       date: "2025-11-29"
       categories: [Other Events]
       
-    - path:
+    - path: "https://www.usms.org/events/events/caq-santa-fe-winter-open?ID=11489"
       image: /images/usmsmeetlogo.png
-      title: "CAQ winter Open"
+      title: "CAQ Winter Open"
       description: "Save the Date. January 3-4, 2026. Hosted by Santa Fe HAMsters. This will be a dual sanctioned meet with a masters heat. More details to come."
       date: "2026-01-03"
       categories: [NM Meets]
@@ -70,10 +70,10 @@ listing:
       date: "2026-03-07"
       categories: [Nearby Meets]
       
-    - path:
+    - path: "https://www.usms.org/events/events/new-mexico-masters-scy-state-championships?ID=11490"
       image: /images/lobo_logo.png
-      title: "2026 New Mexico State Championship"
-      description: "Albuquerque, NM. Seidler Nataorium. March 28-29, 2026. More details to come."
+      title: "New Mexico Masters SCY State Championships"
+      description: "Albuquerque, NM. Seidler Nataorium. March 28-29, 2026. Pre-Nationals competition held at a mile high (5000ft). Open to all 2026 USMS registered athletes for a chance to compete at altitude. Registration Open!."
       date: "2026-03-28"
       categories: [NM Meets]
 ---
