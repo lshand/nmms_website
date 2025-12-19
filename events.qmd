@@ -35,10 +35,10 @@ listing:
       date: "2025-11-29"
       categories: [Other Events]
       
-    - path: "https://www.usms.org/events/events/caq-santa-fe-winter-open?ID=11489"
+    - path: "https://www.gomotionapp.com/team/nmsfac/page/caq-sf-2026-winter-open-masters-entry"
       image: /images/usmsmeetlogo.png
-      title: "CAQ Winter Open"
-      description: "Save the Date. January 3-4, 2026. Hosted by Santa Fe HAMsters. This will be a dual sanctioned meet with a masters heat. More details to come."
+      title: "CAQ Santa Fe Winter Open"
+      description: "Geneva Chavez Community Center. Santa Fe, NM. January 3-4, 2026. Hosted by Santa Fe HAMsters. This will be a dual sanctioned meet with a masters heat. Register by Monday December 29th 5pm"
       date: "2026-01-03"
       categories: [NM Meets]
       
