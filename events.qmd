@@ -63,10 +63,17 @@ listing:
       date: "2026-02-27"
       categories: [Nearby Meets]
       
-    - path: 
+    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2500&smid=21548"
       image: /images/usmsmeetlogo.png
-      title: "RMMS Spring Meet"
-      description: "Durango, Co. More details to come."
+      title: "PPAM March Meet"
+      description: "March 7-8, 2026. Colorado Springs, Co. Registration is now open for the 2026 PPAM March Masters Meet at Pikes Peak Athletics Training Center."
+      date: "2026-03-07"
+      categories: [Nearby Meets]
+      
+    - path: ""
+      image: /images/usmsmeetlogo.png
+      title: "Durango March Meet"
+      description: "March 7, 2026. Durango, Co. Details to come."
       date: "2026-03-07"
       categories: [Nearby Meets]
       
