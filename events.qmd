@@ -6,34 +6,6 @@ listing:
   contents:
   
       
-    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2693&amp;smid=20205"
-      image: /images/lobo_logo.png
-      title: "2025 Lobo Fall Classic Meet"
-      description: "Dust off those racing cobwebs at the first NM LMSC meet of the season! The annual fall meet Lobo meet is a fun, no pressure environment to have a little friendly competition among local (and out of state) teams."
-      date: "2025-10-25"
-      categories: [NM Meets]
-      
-    - path: "https://tinyurl.com/4zwekvux"
-      image: /images/aliencity_fallmeet.jpg
-      title: "Alien City Fall Meet"
-      description: "This dual USA-S and USMS meet is UNSANCTIONED and just for fun. Head down to Roswell to support Alien City’s first dual meet! If successful, this could become an annual event. Email Kyle (KyleRBullock@gmail.com) to register or for any questions. "
-      date: "2025-11-15"
-      categories: [NM Meets]
-      
-      
-    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2364&smid=20353"
-      image: /images/usmsmeetlogo.png
-      title: "2025 Taos High-Altitude Gobbler Meet"
-      description: "Taos Masters is hosting their annual Fall SCY masters meet which is usually followed by a delicious potluck. The event has been sanctioned and is now open for registration!"
-      date: "2025-11-22"
-      categories: [NM Meets]
-      
-    - path: "https://www.eventbrite.com/e/new-mexico-masters-50x100-challenge-tickets-1849322486339?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=wsa&aff=ebdsshwebmobile"
-      image: /images/beastpool.jpeg
-      title: "New Mexico Masters 50x100 challenge"
-      description: "Join us for a 50 x100 challenge swim in this beautiful heated outdoor pool in Albuquerque, with a backdrop of the Sandia Mountains."
-      date: "2025-11-29"
-      categories: [Other Events]
       
     - path: "https://www.gomotionapp.com/team/nmsfac/page/caq-sf-2026-winter-open-masters-entry"
       image: /images/caq.png
@@ -70,10 +42,10 @@ listing:
       date: "2026-03-07"
       categories: [Nearby Meets]
       
-    - path: ""
-      image: /images/usmsmeetlogo.png
-      title: "Durango March Meet"
-      description: "March 7, 2026. Durango, Co. Details to come."
+    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2720&amp;smid=21773"
+      image: /images/durango.jpg
+      title: "Durango Last Chance Meet"
+      description: "March 7, 2026. Durango, Co. SCY meet hosted by Rocky Mountain Masters Swimming. Let's support our northern neighbors!"
       date: "2026-03-07"
       categories: [Nearby Meets]
       
@@ -83,6 +55,13 @@ listing:
       description: "Albuquerque, NM. Seidler Nataorium. March 28-29, 2026. Pre-Nationals competition held at a mile high (5000ft). Open to all 2026 USMS registered athletes for a chance to compete at altitude. Registration Open!."
       date: "2026-03-28"
       categories: [NM Meets]
+      
+    - path: "https://www.eventbrite.com/e/41126-santa-fe-nm-featuring-olympian-josh-davis-tickets-1980415341598?aff=ebdssbdestsearch"
+      image: /images/usswimmer.png
+      title: "Swim Clinic w/ Olympian Josh Davis"
+      description: "Adult and youth swim clinic with Olympic swimmer Josh Davis. There is a master's event planned Friday evening from 5-7pm with water time and dryland messaging (questions and answers) with Josh. Last year we had about 20-25 masters from across the state who attended and several swimmers from El Paso! Please contact Tomas Duran if you are interested or have any questions at 505-428-1608 | tomas.duran@sfcc.edu."
+      date: "2026-04-10"
+      categories: [Other Events]
 ---
 
 ## Check out all USMS events at usms.org/events.
