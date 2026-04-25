@@ -41,6 +41,13 @@ listing:
       description: "April 11-12, 2026. Hosted by Saddlebrook Swim Club in Oro Valley, AZ"
       date: "2026-03-07"
       categories: [Nearby Meets]
+      
+    - path: "https://www.usms.org/events/national-championships/pool-national-championships/2026-pool-national-championships/2026-spring-national-championship"
+      image: /images/usmsmeetlogo.png
+      title: "2026 USMS Spring Nationals"
+      description: "April 30-May 3, 2026."
+      date: "2026-04-30"
+      categories: []
 ---
 
 ## Check out all USMS events at usms.org/events.
