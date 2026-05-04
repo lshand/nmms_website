@@ -7,47 +7,12 @@ listing:
   
       
       
-    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2500&smid=21548"
-      image: /images/usmsmeetlogo.png
-      title: "PPAM March Meet"
-      description: "March 7-8, 2026. Colorado Springs, Co. Registration is now open for the 2026 PPAM March Masters Meet at Pikes Peak Athletics Training Center."
-      date: "2026-03-07"
+    - path: ""
+      image: /docs/SunCitySummerSplash.png
+      title: "Sun City Summer Splash"
+      description: "SAVE THE DATE! Sun Valley Masters Swimming will be hosting a long course meters meet in El Paso, TX June 20-21, 2026. This team has shown up to so many NM-hosted meets. It’s about time we head to them! Stay tuned for registration."
+      date: "2026-06-20"
       categories: [Nearby Meets]
-      
-    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2720&amp;smid=21773"
-      image: /images/durango.jpg
-      title: "Durango Last Chance Meet"
-      description: "March 7, 2026. Durango, Co. SCY meet hosted by Rocky Mountain Masters Swimming. Let's support our northern neighbors!"
-      date: "2026-03-07"
-      categories: [Nearby Meets]
-      
-    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2693&amp;smid=21534"
-      image: /images/lobo_logo.png
-      title: "New Mexico Masters SCY State Championships"
-      description: "Albuquerque, NM. Seidler Nataorium. March 28-29, 2026. Pre-Nationals competition held at a mile high (5000ft). Open to all 2026 USMS registered athletes for a chance to compete at altitude. Registration Open!."
-      date: "2026-03-28"
-      categories: [NM Meets]
-      
-    - path: "https://www.eventbrite.com/e/41126-santa-fe-nm-featuring-olympian-josh-davis-tickets-1980415341598?aff=ebdssbdestsearch"
-      image: /images/usswimmer.png
-      title: "Swim Clinic w/ Olympian Josh Davis"
-      description: "Adult and youth swim clinic with Olympic swimmer Josh Davis. There is a master's event planned Friday evening from 5-7pm with water time and dryland messaging (questions and answers) with Josh. Last year we had about 20-25 masters from across the state who attended and several swimmers from El Paso! Please contact Tomas Duran if you are interested or have any questions at 505-428-1608 | tomas.duran@sfcc.edu."
-      date: "2026-04-10"
-      categories: [Other Events]
-      
-    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2633&amp;smid=21623"
-      image: /images/usmsmeetlogo.png
-      title: "2026 Arizona Masters SCY State Championship"
-      description: "April 11-12, 2026. Hosted by Saddlebrook Swim Club in Oro Valley, AZ"
-      date: "2026-03-07"
-      categories: [Nearby Meets]
-      
-    - path: "https://www.usms.org/events/national-championships/pool-national-championships/2026-pool-national-championships/2026-spring-national-championship"
-      image: /images/usmsmeetlogo.png
-      title: "2026 USMS Spring Nationals"
-      description: "April 30-May 3, 2026."
-      date: "2026-04-30"
-      categories: []
 ---
 
 ## Check out all USMS events at usms.org/events.
