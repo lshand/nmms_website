@@ -7,12 +7,12 @@ listing:
   
       
       
-    - path: ""
+    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2727&smid=22190"
       image: /docs/SunCitySummerSplash.png
       title: "Sun City Summer Splash"
-      description: "SAVE THE DATE! Sun Valley Masters Swimming will be hosting a long course meters meet in El Paso, TX June 20-21, 2026. This team has shown up to so many NM-hosted meets. It’s about time we head to them! Stay tuned for registration."
+      description: "Sun Valley Masters Swimming will be hosting a long course meters meet in El Paso, TX June 20-21, 2026. This team has shown up to so many NM-hosted meets. It’s about time we head to them! Register by June 18th."
       date: "2026-06-20"
-      categories: [Nearby Meets]
+      categories: [NM Meets]
 ---
 
 ## Check out all USMS events at usms.org/events.
