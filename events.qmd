@@ -7,11 +7,11 @@ listing:
   
       
       
-    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2727&smid=22190"
-      image: /docs/SunCitySummerSplash.png
-      title: "Sun City Summer Splash"
-      description: "Sun Valley Masters Swimming will be hosting a long course meters meet in El Paso, TX June 20-21, 2026. This team has shown up to so many NM-hosted meets. It’s about time we head to them! Register by June 18th."
-      date: "2026-06-20"
+    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2693&smid=22279"
+      image: /images/lobo_logo.png
+      title: " 2026 LOBO Masters Fall Classic"
+      description: "Albuquerque, NM. October 24, 2026. Hosted by LOBO Aquatic Club Masters. Start the short course season off right with the Annual LOBO Fall Classic! Register by October 20th."
+      date: "2026-10-24"
       categories: [NM Meets]
 ---
 
