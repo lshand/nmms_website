@@ -6,10 +6,16 @@ listing:
   contents:
   
       
+    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2707&smid=22268"
+      image: /images/usmsmeetlogo.png
+      title: "Dolphins of the Desert Pentathalon"
+      description: "Oro Valley, AZ. September 27, 2026. his event challenges swimmers to complete one of three pentathlon tracks (freestyle, sprint IM, endurance IM) and get a FREE T-shirt! Register by September 22nd."
+      date: "2026-09-27"
+      categories: [USMS Meets]
       
     - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2693&smid=22279"
       image: /images/lobo_logo.png
-      title: " 2026 LOBO Masters Fall Classic"
+      title: "2026 LOBO Masters Fall Classic"
       description: "Albuquerque, NM. October 24, 2026. Hosted by LOBO Aquatic Club Masters. Start the short course season off right with the Annual LOBO Fall Classic! Register by October 20th."
       date: "2026-10-24"
       categories: [NM Meets]
