@@ -19,6 +19,20 @@ listing:
       description: "Albuquerque, NM. October 24, 2026. Hosted by LOBO Aquatic Club Masters. Start the short course season off right with the Annual LOBO Fall Classic! Register by October 20th."
       date: "2026-10-24"
       categories: [NM Meets]
+      
+    - path: "https://www.usms.org/events/events/2026-ppam-december-dash-a1jpo00000as6gz2ab"
+      image: /images/usmsmeetlogo.png
+      title: "2026 PPAM December Dash"
+      description: "Colorado Springs, CO. Dec 5-6, 2026. The PPAM December Dash is one of the largest annual Masters Meets in Colorado Springs. Join us for a weekend of fun, or consider staying the whole week for a high-altitude training camp!"
+      date: "2026-12-05"
+      categories: [USMS Meets]
+      
+    - path: "https://www.usms.org/events/events/2027-fabulous-las-vegas-masters-scm-meet-at-unlv-a1jpo00000b3r6z2af"
+      image: /images/usmsmeetlogo.png
+      title: "2027 Fabulous Las Vegas Masters SCM Meet"
+      description: "Las Vegas, NV. January 17, 2027. This swim meet delivers fun, camaraderie, fitness, and of course healthy competition. We have FAST SWIMMING and we have ENTERTAINMENT! Wear a costume, take photos, have fun!"
+      date: "2027-01-17"
+      categories: [USMS Meets]
 ---
 
 ## Check out all USMS events at usms.org/events.
