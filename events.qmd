@@ -27,11 +27,32 @@ listing:
       date: "2026-12-05"
       categories: [USMS Meets]
       
+    - path: ""
+      image: /images/usmsmeetlogo.png
+      title: "2026 Winter Open"
+      description: "January 9, 2027. Santa Fe, NM. Hosted by High Altitude Masters and Chargers Aquatics. A Dual USAS-USMS meet! There will be a separate masters heat following the age group heats. This gives us masters swimmers more time between events than we are used to! Stay tuned for more info..."
+      date: "2027-01-09"
+      categories: [NM Meets]
+      
     - path: "https://www.usms.org/events/events/2027-fabulous-las-vegas-masters-scm-meet-at-unlv-a1jpo00000b3r6z2af"
       image: /images/usmsmeetlogo.png
       title: "2027 Fabulous Las Vegas Masters SCM Meet"
       description: "Las Vegas, NV. January 17, 2027. This swim meet delivers fun, camaraderie, fitness, and of course healthy competition. We have FAST SWIMMING and we have ENTERTAINMENT! Wear a costume, take photos, have fun!"
       date: "2027-01-17"
+      categories: [USMS Meets]
+      
+    - path: ""
+      image: /images/nmmsred.png
+      title: "2027 New Mexico Masters State Championships"
+      description: "Albuquerque, NM. March 20-21, 2027. West Mesa Aquatics Center. More info to come..."
+      date: "2027-03-20"
+      categories: [NM Meets]
+      
+    - path: "https://www.usms.org/events/national-championships/pool-national-championships/2027-pool-national-championships/2027-spring-national-championship"
+      image: /images/usmsmeetlogo.png
+      title: "2027 USMS SCY National Championships"
+      description: "Irvine, CA. April 29-May 2, 2027"
+      date: "2027-04-29"
       categories: [USMS Meets]
 ---
 
