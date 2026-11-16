@@ -49,7 +49,7 @@ listing:
       date: "2027-01-17"
       categories: [USMS Meets]
       
-    - path: ""
+    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2736&smid=22594"
       image: /images/nmmsred.png
       title: "2027 New Mexico Masters State Championships"
       description: "Albuquerque, NM. March 20-21, 2027. West Mesa Aquatics Center. More info to come..."
