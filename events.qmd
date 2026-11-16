@@ -26,13 +26,21 @@ listing:
       description: "Colorado Springs, CO. Dec 5-6, 2026. The PPAM December Dash is one of the largest annual Masters Meets in Colorado Springs. Join us for a weekend of fun, or consider staying the whole week for a high-altitude training camp!"
       date: "2026-12-05"
       categories: [USMS Meets]
+  
+    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2693&smid=22598"
+      image: /images/lobo_logo.png
+      title: "LOBO Masters Annual 100 x 100s"
+      description: "January 2, 2027. Albuquerque, NM. Hosted by Lobo Masters. Join us in ringing in the new year with a delightful 10km. The first 100 goes off at 6:00AM sharp so don’t be late. Feel free to test yourself going for the 10km or do however many you’d like. $35 for non-LOBO, USMS registered swimmers. FREE for LOBO, USMS registered swimmers. "
+      date: "2027-01-02"
+      categories: [Other NM Events]
       
     - path: ""
-      image: /images/usmsmeetlogo.png
-      title: "2026 Winter Open"
+      image: /images/usmsmmetlogo.png
+      title: "2027 Winter Open"
       description: "January 9, 2027. Santa Fe, NM. Hosted by High Altitude Masters and Chargers Aquatics. A Dual USAS-USMS meet! There will be a separate masters heat following the age group heats. This gives us masters swimmers more time between events than we are used to! Stay tuned for more info..."
       date: "2027-01-09"
       categories: [NM Meets]
+      
       
     - path: "https://www.usms.org/events/events/2027-fabulous-las-vegas-masters-scm-meet-at-unlv-a1jpo00000b3r6z2af"
       image: /images/usmsmeetlogo.png
