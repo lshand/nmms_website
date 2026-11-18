@@ -35,7 +35,7 @@ listing:
       categories: [Other NM Events]
       
     - path: ""
-      image: /images/usmsmmetlogo.png
+      image: /images/usmsmeetlogo.png
       title: "2027 Winter Open"
       description: "January 9, 2027. Santa Fe, NM. Hosted by High Altitude Masters and Chargers Aquatics. A Dual USAS-USMS meet! There will be a separate masters heat following the age group heats. This gives us masters swimmers more time between events than we are used to! Stay tuned for more info..."
       date: "2027-01-09"
@@ -47,6 +47,14 @@ listing:
       title: "2027 Fabulous Las Vegas Masters SCM Meet"
       description: "Las Vegas, NV. January 17, 2027. This swim meet delivers fun, camaraderie, fitness, and of course healthy competition. We have FAST SWIMMING and we have ENTERTAINMENT! Wear a costume, take photos, have fun!"
       date: "2027-01-17"
+      categories: [USMS Meets]
+      
+    - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2633&smid=22385"
+      image: /images/usmsmeetlogo.png
+      title: "2027 Winter Masters Distance Invitational"
+      description: "Oro Valley, AZ. February 27-28, 2027. This event will contest both SCY and LCM. On Day 1, we will swim the 25 yard course and contest the 1650 and 1000 yard freestyles, and the 800 yard freestyle relay in 10 competition lanes.
+On Day 2, we will swim the 50 meter course and contest the 1500 meter freestyle and 800 meter freestyle relay in 8 competition lanes."
+      date: "2027-02-27"
       categories: [USMS Meets]
       
     - path: "https://www.clubassistant.com/club/meet_information.cfm?c=2736&smid=22594"
